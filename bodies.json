@@ -1,5 +1,58 @@
 {
-  "earth": 5.972e24,
-  "moon": 7.348e22,
-  "sun": 1.9885e30
+  "natural": {
+    "planets": {
+      "mercury": 3.285e23,
+      "venus": 4.867e24,
+      "earth": 5.972e24,
+      "mars": 6.417e23,
+      "jupiter": 1.898e27,
+      "saturn": 5.683e26,
+      "uranus": 8.681e25,
+      "neptune": 1.024e26,
+      "pluto": 1.309e22
+    },
+    "moons": {
+      "moon": 7.348e22,
+      "phobos": 1.0659e16,
+      "deimos": 1.4762e15,
+      "io": 8.9319e22,
+      "europa": 4.7998e22,
+      "ganymede": 1.4819e23,
+      "callisto": 1.0759e23,
+      "titan": 1.3452e23,
+      "triton": 2.14e22
+    },
+    "stars": {
+      "sun": 1.9885e30,
+      "proxima_centauri": 2.446e29
+    },
+    "asteroids": {
+      "ceres": 9.393e20,
+      "vesta": 2.59076e20,
+      "pallas": 2.11e20
+    },
+    "comets": {
+      "halley": 2.2e14
+    }
+  },
+  "artificial": {
+    "spacecraft": {
+      "voyager_1": 721.9,
+      "voyager_2": 721.9,
+      "cassini": 5712,
+      "juno": 3625,
+      "new_horizons": 478
+    },
+    "satellites": {
+      "iss": 419725,
+      "hubble": 11110,
+      "jwst": 6200,
+      "gps_satellite": 2000
+    },
+    "landers_and_rovers": {
+      "curiosity": 899,
+      "perseverance": 1025,
+      "insight": 360
+    }
+  }
 }
